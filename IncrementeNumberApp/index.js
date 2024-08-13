@@ -1,5 +1,9 @@
 // Start the counter at 0;
 let count = 0;
+// Target and change the content to display the number
+let h1 = document.querySelector("h1");
+
+h1.textContent = count;
 
 // Functionality for the buttons
 const increaseBtn = document.getElementById("increaseBtn");
@@ -24,8 +28,3 @@ decreaseBtn.onclick = function () {
 resetBtn.onclick = function () {
   h1.textContent = count = 0;
 };
-
-// Target and change the content to display the number
-let h1 = document.querySelector("h1");
-
-h1.textContent = count;
