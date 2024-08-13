@@ -1,7 +1,7 @@
 // Start the counter at 0;
 let count = 0;
 
-// Funtionality for the buttons
+// Functionality for the buttons
 const increaseBtn = document.getElementById("increaseBtn");
 const decreaseBtn = document.getElementById("decreaseBtn");
 const resetBtn = document.getElementById("resetBtn");
